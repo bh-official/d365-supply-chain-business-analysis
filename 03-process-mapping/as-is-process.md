@@ -51,16 +51,5 @@ These observations are hypotheses for the case study and should be validated wit
 Documenting the current process provides a baseline for identifying gaps and designing an improved future process.
 
 
-flowchart TD
-    A[Identify material requirement] --> B[Create purchase order]
-    B --> C[Send order to supplier]
-    C --> D[Supplier dispatches goods]
-    D --> E[Warehouse receives delivery]
-    E --> F[Record received quantity]
-    F --> G[Finance receives supplier invoice]
-    G --> H[Compare order, receipt and invoice]
-    H --> I{Discrepancy found?}
-    I -->|Yes| J[Investigate discrepancy]
-    J --> K[Resolve before approval]
-    I -->|No| L[Approve invoice according to policy]
-    K --> L
+<img width="640" height="2520" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/8a62b2fd-f3f5-41ab-8ba4-3793d2b73f6d" />
+
